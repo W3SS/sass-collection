@@ -10,7 +10,7 @@
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "files": [
-    "resources/plugin/sass/main.scss",
+    "resources/plugin/sass/main.scss"
   ],
   "keywords": [
     "sass",
