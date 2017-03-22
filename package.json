@@ -1,6 +1,6 @@
 {
   "name": "sass-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "resources/plugin/sass/main.scss",
   "scripts": {
@@ -10,16 +10,12 @@
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "files": [
-    "dist/jquery.shares.js",
-    "dist/jquery.shares.min.js",
-    "dist/jquery.shares.pkg.min.js"
+    "resources/plugin/sass/main.scss",
   ],
   "keywords": [
-    "jquery",
-    "jquery-plugin",
-    "shares",
-    "facebook",
-    "twitter"
+    "sass",
+    "scss",
+    "mixins"
   ],
   "author": "Gabriel Burgos",
   "license": "MIT",
@@ -29,9 +25,6 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "dependencies": {
-    "jquery": "3.2.0"
-  },
   "contributors": [
     {
       "name": "Gabriel Burgos",
