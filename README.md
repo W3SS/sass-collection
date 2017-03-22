@@ -1,5 +1,14 @@
 # sass-mixins
 
+## Installation
+
+### NPM
+
+```
+npm install sass-collection --save-dev
+```
+_____
+
 ## Colors
 
 ### Social
@@ -21,7 +30,6 @@ $color_vk           : #45668e
 $color_vimeo        : #aad450
 $color_foursquare   : #0072b1
 $color_whatsapp     : #4dc247
-
 ```
 
 ## Functions
@@ -62,7 +70,7 @@ We use this for creating scalable elements (usually images / background images) 
 This mixin takes all the hassle out of creating that triangle you'll see coming out of most traditional tooltips, all without images, you just specify it's colour, how big you want it, the direction it's going to come out of your element and you're done!
 
 ```
-@mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false){
+@mixin triangle($color, $direction, $size: 6px, $position: absolute, $round: false){
     @include pseudo($pos: $position);
     width: 0;
     height: 0;
