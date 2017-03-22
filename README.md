@@ -1,8 +1,6 @@
 # sass-mixins
-========
 
 ## Colors
-______
 
 ### Social
 
@@ -27,7 +25,6 @@ $color_whatsapp     : #4dc247
 ```
 
 ## Functions
-______
 
 ### Pseudo
 
