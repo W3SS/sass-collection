@@ -116,8 +116,21 @@
 	},
 	"file_history":
 	[
-		"/Users/gabrielburgos/Developer/scss-mixins/sass-mixins.sublime-project",
-		"/Users/gabrielburgos/Developer/scss-mixins/sass-mixins.sublime-workspace",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_ triangles.scss",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_placeholder.scss",
+		"/Users/gabrielburgos/Developer/sass-mixins/README.md",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/main.scss",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_pseudo.scss",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_ratio.scss",
+		"/Users/gabrielburgos/Developer/sass-mixins/package.json",
+		"/Users/gabrielburgos/Developer/sass-mixins/bower.json",
+		"/Users/gabrielburgos/Developer/sass-mixins/node_modules/terminal.glue",
+		"/Users/gabrielburgos/Developer/sass-mixins/terminal.glue",
+		"/Users/gabrielburgos/Developer/sass-mixins/.gitignore",
+		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/colors/_social.scss",
+		"/Users/gabrielburgos/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/gabrielburgos/Developer/sass-mixins/webpack.mix.js",
+		"/Users/gabrielburgos/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/gabrielburgos/Developer/clanstudio/webpack.mix.js",
 		"/Users/gabrielburgos/Developer/clanstudio/resources/assets/sass/vendor.scss",
 		"/Users/gabrielburgos/Developer/clanstudio/resources/assets/js/app.js",
@@ -230,20 +243,7 @@
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/sass/vendor.scss",
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/sass/screen.scss",
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/dist/js/vendor.min.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/site/header.blade.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/site/footer.blade.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/welcome.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/routes.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/home.blade.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/sections/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/templates/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/config/theme.config.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/package.json",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/dist/js/theme.min.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/bower.json",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/.gitignore",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/js/theme.js",
-		"/Users/gabrielburgos/Developer/themosis-base/.env.local"
+		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/site/header.blade.php"
 	],
 	"find":
 	{
@@ -254,6 +254,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/gabrielburgos/Developer/sass-mixins",
 			"/Users/gabrielburgos/Developer/themosis-base",
 			"/Users/gabrielburgos/Developer/adopamoshumanos/htdocs/content/themes/theme/assets",
 			"/Users/gabrielburgos/Developer/mysql"
@@ -264,6 +265,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sass-mixins",
 			"dist",
 			"/public",
 			"resources/",

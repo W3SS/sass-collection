@@ -1,6 +1,6 @@
 {
-  "name": "sass-mixins",
-  "version": "1.0.1",
+  "name": "sass-collection",
+  "version": "1.0.0",
   "description": "",
   "main": "resources/plugin/sass/main.scss",
   "scripts": {
@@ -40,7 +40,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gburgose/sass-mixins.git"
+    "url": "git://github.com/gburgose/sass-collection.git"
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",

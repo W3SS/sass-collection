@@ -1,5 +1,5 @@
 {
-  "name": "sass-mixins",
+  "name": "sass-collection",
   "description": "",
   "main": "dist/jquery.shares.js",
   "moduleType": [ "globals", "amd", "node" ],
@@ -19,10 +19,10 @@
   "authors": [
     { "name": "Gabriel Burgos" }
   ],
-  "homepage": "https://github.com/gburgose/sass-mixins",
+  "homepage": "https://github.com/gburgose/sass-collection",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gburgose/sass-mixins.git"
+    "url": "https://github.com/gburgose/sass-collection.git"
   },
   "dependencies": {
     "jquery": "3.2.0"
