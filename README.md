@@ -93,6 +93,20 @@ This mixin takes all the hassle out of creating that triangle you'll see coming 
 }
 ```
 
+### Placeholders
+
+They're a pain as you have to set the style in all the separate formats, this sorts it for you.
+
+```
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+```
+
 ### Credits
 
 * [Engage interactive](http://engageinteractive.co.uk/blog/top-10-scss-mixins)
