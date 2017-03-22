@@ -1,4 +1,15 @@
+/*
+ |--------------------------------------------------------------------------
+ | Collection of mixins
+ |--------------------------------------------------------------------------
+ |
+ */
 
 // Colors
 
 @include "colors/social";
+
+// Functions
+
+@include "functions/pseudo";
+@include "functions/ratio";
