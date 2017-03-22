@@ -7,11 +7,11 @@
 
 // Colors
 
-@include "colors/social";
+@import "colors/social";
 
 // Functions
 
-@include "functions/pseudo";
-@include "functions/ratio";
-@include "functions/triangles";
-@include "functions/placeholder";
+@import "functions/pseudo";
+@import "functions/ratio";
+@import "functions/placeholder";
+@import "functions/triangles";

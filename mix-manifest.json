@@ -1,4 +1,5 @@
 {
   "/public/assets/js/sample.js": "/public/assets/js/sample.js",
-  "/public/assets/css/sample.css": "/public/assets/css/sample.css"
+  "/public/assets/css/sample.css": "/public/assets/css/sample.css",
+  "/dist/test.css": "/dist/test.css"
 }

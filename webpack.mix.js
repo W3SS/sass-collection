@@ -11,6 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/sample/js/main.js', 'public/assets/js/sample.js')
+mix.browserSync('sass-collection.dev')
+	 // Sample asstes
+	 .js('resources/sample/js/main.js', 'public/assets/js/sample.js')
    .sass('resources/sample/sass/main.scss', 'public/assets/css/sample.css')
-   .browserSync('sass-mixins.dev');
+   // Mixins
+   .sass('resources/plugin/sass/main.scss', 'dist/test.css');

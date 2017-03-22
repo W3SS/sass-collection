@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Shares</title>
-	<link type="text/css" rel="stylesheet" href="./assets/css/sample.css?v=<?php echo rand(1,1000); ?>">
-	<script src="./assets/js/sample.js?v=<?php echo rand(1,1000); ?>"></script>
+	<link type="text/css" rel="stylesheet" href="./assets/css/sample.css">
+	<script src="./assets/js/sample.js"></script>
 </head>
 <body>
 
