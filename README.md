@@ -28,6 +28,8 @@ $color_whatsapp     : #4dc247
 
 ### Pseudo
 
+When using ::before and ::after you'll always need these three, so we're saving two lines of code every time you use this.
+
 ```
 @mixin pseudo($display: block, $pos: absolute, $content: ''){
     content: $content;
@@ -37,6 +39,8 @@ $color_whatsapp     : #4dc247
 ```
 
 ### Responsive ratio
+
+We use this for creating scalable elements (usually images / background images) that maintain a ratio.
 
 ```
 @mixin ratio($x,$y, $pseudo: false) {
@@ -52,3 +56,43 @@ $color_whatsapp     : #4dc247
     }
 }
 ```
+
+### CSS triangles
+
+This mixin takes all the hassle out of creating that triangle you'll see coming out of most traditional tooltips, all without images, you just specify it's colour, how big you want it, the direction it's going to come out of your element and you're done!
+
+```
+@mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false){
+    @include pseudo($pos: $position);
+    width: 0;
+    height: 0;
+    @if $round {
+        border-radius: 3px;
+    }
+    @if $direction == down {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-top: $size solid $color;
+        margin-top: 0 - round( $size / 2.5 );
+    } @else if $direction == up {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-bottom: $size solid $color;
+        margin-bottom: 0 - round( $size / 2.5 );
+    } @else if $direction == right {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid $color;
+        margin-right: -$size;
+    } @else if  $direction == left {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+        margin-left: -$size;
+    }
+}
+```
+
+### Credits
+
+* [Engage interactive](http://engageinteractive.co.uk/blog/top-10-scss-mixins)
