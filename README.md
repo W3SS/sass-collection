@@ -1,2 +1,1 @@
-# jquery-shares
 # sass-mixins

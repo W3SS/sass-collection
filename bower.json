@@ -1,0 +1,30 @@
+{
+  "name": "sass-mixins",
+  "description": "",
+  "main": "dist/jquery.shares.js",
+  "moduleType": [ "globals", "amd", "node" ],
+  "license": "MIT",
+  "ignore": [
+    "README.md",
+    "composer.json",
+    "package.json"
+  ],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "shares",
+    "facebook",
+    "twitter"
+  ],
+  "authors": [
+    { "name": "Gabriel Burgos" }
+  ],
+  "homepage": "https://github.com/gburgose/sass-mixins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gburgose/sass-mixins.git"
+  },
+  "dependencies": {
+    "jquery": "3.2.0"
+  }
+}
