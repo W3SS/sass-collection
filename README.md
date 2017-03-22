@@ -1,4 +1,4 @@
-# sass-mixins
+# Sass Mixins
 
 ## Installation
 
@@ -7,7 +7,8 @@
 ```
 npm install sass-collection --save-dev
 ```
-_____
+
+=====
 
 ## Colors
 
