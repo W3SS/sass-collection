@@ -67,6 +67,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -116,6 +132,22 @@
 	},
 	"file_history":
 	[
+		"/Users/gabrielburgos/Developer/sass-collection/dist/test.css",
+		"/Users/gabrielburgos/Developer/sass-collection/package.json",
+		"/Users/gabrielburgos/Developer/sass-collection/public/index.php",
+		"/Users/gabrielburgos/Developer/sass-collection/webpack.mix.js",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/main.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/sample/sass/main.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/colors/_social.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/functions/_ triangles.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/functions/_triangles.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/functions/_pseudo.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/.gitignore",
+		"/Users/gabrielburgos/Developer/sass-collection/README.md",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/functions/_placeholder.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/resources/plugin/sass/functions/_ratio.scss",
+		"/Users/gabrielburgos/Developer/sass-collection/sass-collection.sublime-project",
+		"/Users/gabrielburgos/Developer/sass-collection/.git/config",
 		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_ triangles.scss",
 		"/Users/gabrielburgos/Developer/sass-mixins/resources/plugin/sass/functions/_placeholder.scss",
 		"/Users/gabrielburgos/Developer/sass-mixins/README.md",
@@ -227,23 +259,7 @@
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/webpack.config.js",
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/js/app.js",
 		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/hooks/emojis.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/js/vendor.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/gulpfile.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/dist/js/vendor.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/dist/js/app.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/layouts/default.blade.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/assets.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/load.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/acf/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/ajax/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/hooks/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/posts/.gitkeep",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/admin/actions.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/global/footer.blade.php",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/sass/vendor.scss",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/sass/screen.scss",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/dist/js/vendor.min.js",
-		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/resources/views/site/header.blade.php"
+		"/Users/gabrielburgos/Developer/themosis-base/htdocs/content/themes/theme/assets/js/vendor.js"
 	],
 	"find":
 	{
@@ -265,6 +281,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"./",
+			"include",
+			"@include \"",
+			"/",
+			"de \"",
+			"v=<?php echo rand(1,1000); ?>",
+			"sample",
 			"sass-mixins",
 			"dist",
 			"/public",
@@ -371,8 +394,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

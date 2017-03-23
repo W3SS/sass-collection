@@ -22,141 +22,163 @@ pre.prettyprint{
 	border-color: rgba(#ccc,.5) !important;
 }
 
-h1{
-	margin-bottom: 40px;
+.container{
+	max-width: 800px;
 }
 
-.colors{
-	h2{
-		margin-bottom: 40px;
+header{
+	padding: 30px 0;
+	//margin-bottom: 20px;
+	//border-bottom: 1px solid rgba(#ccc,.5);
+	h1{
+		margin: 0;
 	}
-	.social-color{
-		appearance: none;
-		background-color: #333;
-		color: white;
-		width: 100%;
-		text-align: center;
-		padding: 30px 0;
-		border: none;
+}
+
+section{
+
+	padding: 40px 0;
+
+	&:nth-child(even){
+		background-color: rgba(#ccc,.2);
+	}
+
+	h2, h3{
 		margin-bottom: 20px;
-		text-transform: uppercase;
-		font-size: 12px;
-		transition: .5s;
-
-		&.facebook{
-			background-color: $color_facebook;
-			&:hover{
-				background-color: darken( $color_facebook, 10% );
-			}
-		}
-
-		&.twitter{
-			background-color: $color_twitter;
-			&:hover{
-				background-color: darken( $color_twitter, 10% );
-			}
-		}
-
-		&.google_plus{
-			background-color: $color_google_plus;
-			&:hover{
-				background-color: darken( $color_google_plus, 10% );
-			}
-		}
-
-		&.youtube{
-			background-color: $color_youtube;
-			&:hover{
-				background-color: darken( $color_youtube, 10% );
-			}
-		}
-
-		&.linkedin{
-			background-color: $color_linkedin;
-			&:hover{
-				background-color: darken( $color_linkedin, 10% );
-			}
-		}
-
-		&.instagram{
-			background-color: $color_instagram;
-			&:hover{
-				background-color: darken( $color_instagram, 10% );
-			}
-		}
-
-		&.pinterest{
-			background-color: $color_pinterest;
-			&:hover{
-				background-color: darken( $color_pinterest, 10% );
-			}
-		}
-
-		&.vine{
-			background-color: $color_vine;
-			&:hover{
-				background-color: darken( $color_vine, 10% );
-			}
-		}
-
-		&.snapchat{
-			background-color: $color_snapchat;
-			color: #333;
-			&:hover{
-				background-color: darken( $color_snapchat, 10% );
-			}
-		}
-
-		&.quora{
-			background-color: $color_quora;
-			&:hover{
-				background-color: darken( $color_quora, 10% );
-			}
-		}
-
-		&.flikr{
-			background-color: $color_flikr;
-			&:hover{
-				background-color: darken( $color_flikr, 10% );
-			}
-		}
-
-		&.tumblr{
-			background-color: $color_tumblr;
-			&:hover{
-				background-color: darken( $color_tumblr, 10% );
-			}
-		}
-
-		&.vk{
-			background-color: $color_vk;
-			&:hover{
-				background-color: darken( $color_vk, 10% );
-			}
-		}
-
-		&.vimeo{
-			background-color: $color_vimeo;
-			&:hover{
-				background-color: darken( $color_vimeo, 10% );
-			}
-		}
-
-		&.foursquare{
-			background-color: $color_foursquare;
-			&:hover{
-				background-color: darken( $color_foursquare, 10% );
-			}
-		}
-
-		&.whatsapp{
-			background-color: $color_whatsapp;
-			&:hover{
-				background-color: darken( $color_whatsapp, 10% );
-			}
-		}
-
-
-
 	}
+
+	&.colors{
+
+		.colors-box{
+			margin-bottom: 20px;
+		}
+
+		.social-color{
+			appearance: none;
+			background-color: #333;
+			color: white;
+			width: 100%;
+			text-align: center;
+			padding: 30px 0;
+			border: none;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			font-size: 12px;
+			transition: .5s;
+
+			&.facebook{
+				background-color: $color_facebook;
+				&:hover{
+					background-color: darken( $color_facebook, 10% );
+				}
+			}
+
+			&.twitter{
+				background-color: $color_twitter;
+				&:hover{
+					background-color: darken( $color_twitter, 10% );
+				}
+			}
+
+			&.google_plus{
+				background-color: $color_google_plus;
+				&:hover{
+					background-color: darken( $color_google_plus, 10% );
+				}
+			}
+
+			&.youtube{
+				background-color: $color_youtube;
+				&:hover{
+					background-color: darken( $color_youtube, 10% );
+				}
+			}
+
+			&.linkedin{
+				background-color: $color_linkedin;
+				&:hover{
+					background-color: darken( $color_linkedin, 10% );
+				}
+			}
+
+			&.instagram{
+				background-color: $color_instagram;
+				&:hover{
+					background-color: darken( $color_instagram, 10% );
+				}
+			}
+
+			&.pinterest{
+				background-color: $color_pinterest;
+				&:hover{
+					background-color: darken( $color_pinterest, 10% );
+				}
+			}
+
+			&.vine{
+				background-color: $color_vine;
+				&:hover{
+					background-color: darken( $color_vine, 10% );
+				}
+			}
+
+			&.snapchat{
+				background-color: $color_snapchat;
+				color: #333;
+				&:hover{
+					background-color: darken( $color_snapchat, 10% );
+				}
+			}
+
+			&.quora{
+				background-color: $color_quora;
+				&:hover{
+					background-color: darken( $color_quora, 10% );
+				}
+			}
+
+			&.flikr{
+				background-color: $color_flikr;
+				&:hover{
+					background-color: darken( $color_flikr, 10% );
+				}
+			}
+
+			&.tumblr{
+				background-color: $color_tumblr;
+				&:hover{
+					background-color: darken( $color_tumblr, 10% );
+				}
+			}
+
+			&.vk{
+				background-color: $color_vk;
+				&:hover{
+					background-color: darken( $color_vk, 10% );
+				}
+			}
+
+			&.vimeo{
+				background-color: $color_vimeo;
+				&:hover{
+					background-color: darken( $color_vimeo, 10% );
+				}
+			}
+
+			&.foursquare{
+				background-color: $color_foursquare;
+				&:hover{
+					background-color: darken( $color_foursquare, 10% );
+				}
+			}
+
+			&.whatsapp{
+				background-color: $color_whatsapp;
+				&:hover{
+					background-color: darken( $color_whatsapp, 10% );
+				}
+			}
+		}
+	}
+
 }

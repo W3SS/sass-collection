@@ -35,6 +35,20 @@ $color_whatsapp     : #4dc247;
 
 ## Functions
 
+### Placeholders
+
+They're a pain as you have to set the style in all the separate formats, this sorts it for you.
+
+```
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+```
+
 ### Pseudo
 
 When using ::before and ::after you'll always need these three, so we're saving two lines of code every time you use this.
@@ -66,7 +80,7 @@ We use this for creating scalable elements (usually images / background images) 
 }
 ```
 
-### CSS triangles
+### triangles
 
 This mixin takes all the hassle out of creating that triangle you'll see coming out of most traditional tooltips, all without images, you just specify it's colour, how big you want it, the direction it's going to come out of your element and you're done!
 
@@ -102,17 +116,16 @@ This mixin takes all the hassle out of creating that triangle you'll see coming 
 }
 ```
 
-### Placeholders
+### Truncate
 
-They're a pain as you have to set the style in all the separate formats, this sorts it for you.
+Adding Truncation to an element isn't as simple as it should be, although it is with this handy time saver, meaning when you include the mixin, you only have to specify your boundry with a max width value, happy days!
 
 ```
-@mixin input-placeholder {
-    &.placeholder { @content; }
-    &:-moz-placeholder { @content; }
-    &::-moz-placeholder { @content; }
-    &:-ms-input-placeholder { @content; }
-    &::-webkit-input-placeholder { @content; }
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 ```
 
