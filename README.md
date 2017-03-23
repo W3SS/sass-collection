@@ -78,7 +78,7 @@ We use this for creating scalable elements (usually images / background images) 
 }
 ```
 
-### triangles
+### Triangles
 
 This mixin takes all the hassle out of creating that triangle you'll see coming out of most traditional tooltips, all without images, you just specify it's colour, how big you want it, the direction it's going to come out of your element and you're done!
 
