@@ -8,8 +8,6 @@
 npm install sass-collection --save-dev
 ```
 
-=====
-
 ## Colors
 
 ### Social
