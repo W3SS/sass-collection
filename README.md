@@ -2,8 +2,6 @@
 
 ## Installation
 
-### NPM
-
 ```
 npm install sass-collection --save-dev
 ```
