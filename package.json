@@ -1,6 +1,6 @@
 {
   "name": "sass-collection",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "resources/plugin/sass/main.scss",
   "scripts": {
@@ -9,7 +9,16 @@
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "files": [],
+  "files": [
+    "resources/plugin/sass/main.scss",
+    "resources/plugin/sass/colors/_social.scss",
+    "resources/plugin/sass/functions/_placeholder.scss",
+    "resources/plugin/sass/functions/_pseudo.scss",
+    "resources/plugin/sass/functions/_ratio.scss",
+    "resources/plugin/sass/functions/_triangles.scss",
+    "resources/plugin/sass/functions/_truncate.scss",
+    "resources/plugin/sass/wordpress/_paragraph.scss",
+  ],
   "keywords": [
     "sass",
     "scss",

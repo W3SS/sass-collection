@@ -6,13 +6,14 @@
  */
 
 // Colors
-
 @import "colors/social";
 
 // Functions
-
 @import "functions/placeholder";
 @import "functions/pseudo";
 @import "functions/ratio";
 @import "functions/triangles";
 @import "functions/truncate";
+
+// Wordpress
+@import "wordpress/paragraph";
