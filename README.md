@@ -1,4 +1,4 @@
-# Sass Mixins v1.0.6
+# Sass Mixins v1.0.7
 
 ## Installation
 
