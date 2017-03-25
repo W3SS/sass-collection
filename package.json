@@ -17,7 +17,7 @@
     "resources/plugin/sass/functions/_ratio.scss",
     "resources/plugin/sass/functions/_triangles.scss",
     "resources/plugin/sass/functions/_truncate.scss",
-    "resources/plugin/sass/wordpress/_paragraph.scss",
+    "resources/plugin/sass/wordpress/_paragraph.scss"
   ],
   "keywords": [
     "sass",
