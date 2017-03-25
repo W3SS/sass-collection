@@ -1,0 +1,17 @@
+/*
+ |--------------------------------------------------------------------------
+ | Placeholders
+ |--------------------------------------------------------------------------
+ |
+ | They're a pain as you have to set the style in all the separate formats, this sorts it 
+ | for you.
+ |
+ */
+
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}

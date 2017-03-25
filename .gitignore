@@ -1,5 +1,10 @@
+### DIST
+
+/dist/test.css
+
+### Others
+
 /node_modules/
-/dist/
 *.glue
 *.sublime-project
 *.sublime-workspace
