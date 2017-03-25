@@ -1,6 +1,6 @@
 {
   "name": "sass-collection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "resources/plugin/sass/main.scss",
   "scripts": {
@@ -9,9 +9,7 @@
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "files": [
-    "resources/plugin/sass/main.scss"
-  ],
+  "files": [],
   "keywords": [
     "sass",
     "scss",
@@ -37,7 +35,6 @@
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "code-prettify": "^0.1.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "laravel-mix": "^0.8.8"
